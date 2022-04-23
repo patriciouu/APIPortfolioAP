@@ -16,15 +16,17 @@ public class Persona {
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private Long id;
     private String nombre;
-    private String acercade;
+    private String acercaDe;
+    private String fotoDePerfil;
 
     public Persona() {
     }
 
-    public Persona(int id, String nombre, String acercade) {
+    public Persona(Long id, String nombre, String acercaDe, String fotoDePerfil) {
         this.id = id;
         this.nombre = nombre;
-        this.acercade = acercade;
+        this.acercaDe = acercaDe;
+        this.fotoDePerfil = fotoDePerfil;
     }
 
 }
