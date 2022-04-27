@@ -16,6 +16,7 @@ public class Persona {
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private Long id;
     private String nombre;
+    private String titulo;
     private String acercaDe;
     private String fotoDePerfil;
 
@@ -25,6 +26,7 @@ public class Persona {
     public Persona(Long id, String nombre, String acercaDe, String fotoDePerfil) {
         this.id = id;
         this.nombre = nombre;
+        this.titulo = titulo;
         this.acercaDe = acercaDe;
         this.fotoDePerfil = fotoDePerfil;
     }
