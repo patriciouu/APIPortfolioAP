@@ -34,6 +34,13 @@ public class ExperienciaService implements IExperienciaService {
         Experiencia exp = expRepo.findById(id).orElse(null);
         return exp;
     }
+
+    @Override
+    public void editExperiencia(Experiencia exp) {
+        expRepo.save(exp);
+    }
+    
+    
     
     
 }

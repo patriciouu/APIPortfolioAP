@@ -34,6 +34,11 @@ public class PersonaService implements IPersonaService{
         Persona perso = persoRepo.findById(id).orElse(null);
         return perso;
     }
+
+    @Override
+    public void editPersona(Persona perso) {
+        persoRepo.save(perso);
+    }
     
     
     
