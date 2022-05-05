@@ -2,7 +2,7 @@
 package com.portfolioAPI.APIPortfolioArgProg.Controller;
 
 import com.portfolioAPI.APIPortfolioArgProg.Model.Experiencia;
-import com.portfolioAPI.APIPortfolioArgProg.Service.IExperienciaService;
+import com.portfolioAPI.APIPortfolioArgProg.Service.ExperienciaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -22,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExperienciaController {
     
     @Autowired
-    private IExperienciaService interExp;
+    private ExperienciaService interExp;
     
     @GetMapping("/experiencia")
     private List<Experiencia> returnExperiencias(){
