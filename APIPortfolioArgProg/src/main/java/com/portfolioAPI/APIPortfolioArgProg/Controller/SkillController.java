@@ -29,7 +29,7 @@ public class SkillController {
     }
     
     @PostMapping("/skills/create")
-    private void createSkill(Skill ski){
+    private void createSkill(@RequestBody Skill ski){
         interSkill.saveSkill(ski);
     }
     
