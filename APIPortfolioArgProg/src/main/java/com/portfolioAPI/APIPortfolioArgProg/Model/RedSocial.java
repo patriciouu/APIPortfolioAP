@@ -21,7 +21,7 @@ import lombok.Setter;
 public class RedSocial {
     
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private Long redSocialId;
     private String urlInstagram;
     private String urlLinkedin;
