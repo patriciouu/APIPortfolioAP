@@ -13,7 +13,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>APIPortfolioArgProg</name>
 	<description>Demo project for Spring Boot</description>
+<<<<<<< HEAD
 
+=======
+>>>>>>> desarrollo
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

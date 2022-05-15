@@ -19,6 +19,7 @@ public class Persona {
     private String titulo;
     private String acercaDe;
     private String fotoDePerfil;
+    private String banner;
 
     public Persona() {
     }
@@ -29,6 +30,7 @@ public class Persona {
         this.titulo = titulo;
         this.acercaDe = acercaDe;
         this.fotoDePerfil = fotoDePerfil;
+        this.banner = banner;
     }
 
 }
