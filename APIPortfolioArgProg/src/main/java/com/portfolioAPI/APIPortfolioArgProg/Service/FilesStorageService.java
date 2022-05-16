@@ -22,7 +22,7 @@ import org.springframework.web.multipart.MultipartFile;
  */
 @Service
 public class FilesStorageService implements IFilesStorageService {
-    private final Path root = Paths.get("uploads");
+    private final Path root = Paths.get("src/main/resources/uploads");
   @Override
   public void init() {
     try {
