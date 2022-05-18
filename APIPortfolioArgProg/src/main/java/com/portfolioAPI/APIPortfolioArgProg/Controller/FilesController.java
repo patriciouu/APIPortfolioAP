@@ -31,7 +31,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author patri
  */
 @Controller
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://portfolioargprogpo.web.app/")
 @RequestMapping("/portfolio")
 public class FilesController {
 
