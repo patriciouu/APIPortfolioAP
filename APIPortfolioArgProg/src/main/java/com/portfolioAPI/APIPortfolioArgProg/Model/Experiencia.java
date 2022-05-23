@@ -16,14 +16,14 @@ public class Experiencia {
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private Long idExperiencia;
     private String empresa;
-    private String periodo;
+    private int periodo;
     private String puesto;
     private String logoEmpresa;
 
     public Experiencia() {
     }
 
-    public Experiencia(Long idExperiencia, String empresa, String periodo, String puesto, String logoEmpresa) {
+    public Experiencia(Long idExperiencia, String empresa, int periodo, String puesto, String logoEmpresa) {
         this.idExperiencia = idExperiencia;
         this.empresa = empresa;
         this.periodo = periodo;
