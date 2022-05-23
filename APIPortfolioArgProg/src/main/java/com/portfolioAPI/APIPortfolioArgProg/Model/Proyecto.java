@@ -20,6 +20,7 @@ public class Proyecto {
     private String imagenProyecto;
     private String urlProyecto;
     private int fecha;
+     
 
     public Proyecto() {
     }
