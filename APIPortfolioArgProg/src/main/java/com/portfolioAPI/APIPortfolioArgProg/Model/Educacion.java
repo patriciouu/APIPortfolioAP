@@ -16,14 +16,14 @@ public class Educacion {
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private Long educacionId;
     private String instituto;
-    private String periodo;
+    private int periodo;
     private String carrera;
     private String logoEducacion;
 
     public Educacion() {
     }
 
-    public Educacion(Long educacionId, String instituto, String periodo, String carrera, String logoEducacion) {
+    public Educacion(Long educacionId, String instituto, int periodo, String carrera, String logoEducacion) {
         this.educacionId = educacionId;
         this.instituto = instituto;
         this.periodo = periodo;
