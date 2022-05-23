@@ -17,16 +17,18 @@ public class Experiencia {
     private Long idExperiencia;
     private String empresa;
     private int periodo;
+    private int periodoFin;
     private String puesto;
     private String logoEmpresa;
 
     public Experiencia() {
     }
 
-    public Experiencia(Long idExperiencia, String empresa, int periodo, String puesto, String logoEmpresa) {
+    public Experiencia(Long idExperiencia, String empresa, int periodo, int periodoFin, String puesto, String logoEmpresa) {
         this.idExperiencia = idExperiencia;
         this.empresa = empresa;
         this.periodo = periodo;
+        this.periodoFin = periodoFin;
         this.puesto = puesto;
         this.logoEmpresa = logoEmpresa;
     }

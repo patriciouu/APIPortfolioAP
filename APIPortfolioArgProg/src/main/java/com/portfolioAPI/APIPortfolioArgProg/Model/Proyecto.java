@@ -19,16 +19,18 @@ public class Proyecto {
     private String descripcionProyecto;
     private String imagenProyecto;
     private String urlProyecto;
+    private int fecha;
 
     public Proyecto() {
     }
 
-    public Proyecto(Long proyectoId, String nombreProyecto, String descripcionProyecto, String imagenProyecto, String urlProyecto) {
+    public Proyecto(Long proyectoId, String nombreProyecto, String descripcionProyecto, String imagenProyecto, String urlProyecto, int fecha) {
         this.proyectoId = proyectoId;
         this.nombreProyecto = nombreProyecto;
         this.descripcionProyecto = descripcionProyecto;
         this.imagenProyecto = imagenProyecto;
         this.urlProyecto =  urlProyecto;
+        this.fecha = fecha;
     }
     
     
